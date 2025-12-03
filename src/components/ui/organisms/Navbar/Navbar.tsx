@@ -17,6 +17,9 @@ export const Navbar: React.FC = () => {
       <div className="flex justify-center items-center gap-5">
         <LanguageSelector />
         <ThemeButton />
+        <div className="bg-gray-600 text-white w-[40px] h-[40px] rounded-full flex items-center justify-center">
+          D
+        </div>
       </div>
     </header>
   );
